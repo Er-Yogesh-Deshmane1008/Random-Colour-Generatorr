@@ -1,0 +1,33 @@
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.container h2 {
+    background-color: black;
+    color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    text-transform: uppercase ;
+    background: transparent;
+    color: #222;
+    border-radius: 35px;
+    font-weight: 700;
+    border: 2px solid #222;
+    cursor: pointer;
+   padding:5px ;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #222;
+}
